@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h2>Lab 7: JavaScript Arithmetic Operator</h2>
+    <form action="" id = "my-form">
+        <fieldset id = "display">
+            
+                <legend>My Calculator</legend><br>
+                <textarea name="" id="display-area" placeholder="Display result here"></textarea>
+            
+        </fieldset>
+
+        <fieldset id = "calculator">
+            
+                <legend>Input</legend><br>
+                <label for="">Operands:</label>
+                <input type="text" id ="x" size="8" placeholder="1st number">
+                <input type="text" id ="y" size="8" placeholder="2nd number"><br><br>
+                <label for="">Operator:</label>
+                <button type="button" class = "button" id = "addition"onclick="add()">+</button>
+                <button type="button" class = "button" id = "multiplication" onclick="multiply()">x</button>
+                <button type="button" class = "button" id = "division" onclick="divide()">:</button>
+                <button type="button" class = "button" id = "clear" onclick="clearForm()">clear</button>
+                
+        </fieldset>
+        <script src="javascript.js"></script>
+    </form>
+    
+</body>
+</html>
